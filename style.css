@@ -1,0 +1,53 @@
+/* Style for the to-do list container */
+.todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the to-do list header */
+  .todo-list h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the to-do list items */
+  .todo-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the to-do list item text */
+  .todo-list-item-text {
+    flex: 1;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Style for the to-do list item delete button */
+  .todo-list-item-delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .todo-input-error {
+    border-color: red;
+  }
+
+  .todo-input-error-message {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+  }  
